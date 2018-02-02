@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26DEBEB202492F200A738CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEBEA202492F200A738CC /* AppDelegate.m */; };
+		C26DEBEE202492F200A738CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEBED202492F200A738CC /* ViewController.m */; };
+		C26DEBF4202492F200A738CC /* getMoneyShiftCFT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C26DEBF2202492F200A738CC /* getMoneyShiftCFT.xcdatamodeld */; };
+		C26DEBF6202492F200A738CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26DEBF5202492F200A738CC /* Assets.xcassets */; };
+		C26DEBF9202492F200A738CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26DEBF7202492F200A738CC /* LaunchScreen.storyboard */; };
+		C26DEBFC202492F200A738CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEBFB202492F200A738CC /* main.m */; };
+		C26DEC06202492F200A738CC /* getMoneyShiftCFTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC05202492F200A738CC /* getMoneyShiftCFTTests.m */; };
+		C26DEC122024932700A738CC /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC112024932700A738CC /* AppController.m */; };
+		C26DEC152024933800A738CC /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC142024933800A738CC /* Context.m */; };
+		C26DEC1E2024937400A738CC /* PaymentCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC172024937400A738CC /* PaymentCard.m */; };
+		C26DEC1F2024937400A738CC /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC1C2024937400A738CC /* Contact.m */; };
+		C26DEC22202493C700A738CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26DEC21202493C700A738CC /* Main.storyboard */; };
+		C26DEC29202494B400A738CC /* MainScreenUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC28202494B400A738CC /* MainScreenUI.m */; };
+		C26DEC2C2024983900A738CC /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC2B2024983900A738CC /* MainPresenter.m */; };
+		C26DEC362024ACF800A738CC /* CHRTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC302024ACF700A738CC /* CHRTextFieldFormatter.m */; };
+		C26DEC372024ACF800A738CC /* CardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC312024ACF700A738CC /* CardValidator.m */; };
+		C26DEC382024ACF800A738CC /* CHRCardNumberMask.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC342024ACF700A738CC /* CHRCardNumberMask.m */; };
+		C26DEC3D2024AEAC00A738CC /* CardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC3B2024AEAC00A738CC /* CardManager.m */; };
+		C26DEC442024D79000A738CC /* UIColor+ColorHEX.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC432024D79000A738CC /* UIColor+ColorHEX.m */; };
+		C26DEC482024F2BB00A738CC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26DEC472024F2BB00A738CC /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26DEC02202492F200A738CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26DEBDE202492F200A738CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26DEBE5202492F200A738CC;
+			remoteInfo = getMoneyShiftCFT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26DEBE6202492F200A738CC /* getMoneyShiftCFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getMoneyShiftCFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26DEBE9202492F200A738CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26DEBEA202492F200A738CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26DEBEC202492F200A738CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C26DEBED202492F200A738CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C26DEBF3202492F200A738CC /* getMoneyShiftCFT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = getMoneyShiftCFT.xcdatamodel; sourceTree = "<group>"; };
+		C26DEBF5202492F200A738CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26DEBF8202492F200A738CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C26DEBFA202492F200A738CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26DEBFB202492F200A738CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26DEC01202492F200A738CC /* getMoneyShiftCFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getMoneyShiftCFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26DEC05202492F200A738CC /* getMoneyShiftCFTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getMoneyShiftCFTTests.m; sourceTree = "<group>"; };
+		C26DEC07202492F200A738CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26DEC102024932700A738CC /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		C26DEC112024932700A738CC /* AppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		C26DEC132024933800A738CC /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		C26DEC142024933800A738CC /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		C26DEC172024937400A738CC /* PaymentCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentCard.m; sourceTree = "<group>"; };
+		C26DEC182024937400A738CC /* PaymentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentCard.h; sourceTree = "<group>"; };
+		C26DEC1A2024937400A738CC /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		C26DEC1C2024937400A738CC /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		C26DEC21202493C700A738CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C26DEC262024942700A738CC /* IMainScreenUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMainScreenUI.h; sourceTree = "<group>"; };
+		C26DEC27202494B400A738CC /* MainScreenUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenUI.h; sourceTree = "<group>"; };
+		C26DEC28202494B400A738CC /* MainScreenUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenUI.m; sourceTree = "<group>"; };
+		C26DEC2A2024983900A738CC /* MainPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		C26DEC2B2024983900A738CC /* MainPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
+		C26DEC2F2024ACF700A738CC /* CHRTextMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRTextMask.h; sourceTree = "<group>"; };
+		C26DEC302024ACF700A738CC /* CHRTextFieldFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRTextFieldFormatter.m; sourceTree = "<group>"; };
+		C26DEC312024ACF700A738CC /* CardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardValidator.m; sourceTree = "<group>"; };
+		C26DEC322024ACF700A738CC /* CHRCardNumberMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRCardNumberMask.h; sourceTree = "<group>"; };
+		C26DEC332024ACF700A738CC /* CardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardValidator.h; sourceTree = "<group>"; };
+		C26DEC342024ACF700A738CC /* CHRCardNumberMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRCardNumberMask.m; sourceTree = "<group>"; };
+		C26DEC352024ACF700A738CC /* CHRTextFieldFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRTextFieldFormatter.h; sourceTree = "<group>"; };
+		C26DEC3B2024AEAC00A738CC /* CardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardManager.m; sourceTree = "<group>"; };
+		C26DEC3C2024AEAC00A738CC /* CardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardManager.h; sourceTree = "<group>"; };
+		C26DEC422024D79000A738CC /* UIColor+ColorHEX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHEX.h"; sourceTree = "<group>"; };
+		C26DEC432024D79000A738CC /* UIColor+ColorHEX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHEX.m"; sourceTree = "<group>"; };
+		C26DEC462024F2BB00A738CC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C26DEC472024F2BB00A738CC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26DEBE3202492F200A738CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DEBFE202492F200A738CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26DEBDD202492F200A738CC = {
+			isa = PBXGroup;
+			children = (
+				C26DEBE8202492F200A738CC /* getMoneyShiftCFT */,
+				C26DEC04202492F200A738CC /* getMoneyShiftCFTTests */,
+				C26DEBE7202492F200A738CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26DEBE7202492F200A738CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEBE6202492F200A738CC /* getMoneyShiftCFT.app */,
+				C26DEC01202492F200A738CC /* getMoneyShiftCFTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26DEBE8202492F200A738CC /* getMoneyShiftCFT */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC2D2024AC7100A738CC /* Helper */,
+				C26DEC25202493E300A738CC /* ViewController */,
+				C26DEC24202493DD00A738CC /* Presenter */,
+				C26DEC23202493D200A738CC /* UI */,
+				C26DEC162024935B00A738CC /* Model */,
+				C26DEBE9202492F200A738CC /* AppDelegate.h */,
+				C26DEBEA202492F200A738CC /* AppDelegate.m */,
+				C26DEC21202493C700A738CC /* Main.storyboard */,
+				C26DEBF5202492F200A738CC /* Assets.xcassets */,
+				C26DEBF7202492F200A738CC /* LaunchScreen.storyboard */,
+				C26DEBFA202492F200A738CC /* Info.plist */,
+				C26DEBFB202492F200A738CC /* main.m */,
+				C26DEBF2202492F200A738CC /* getMoneyShiftCFT.xcdatamodeld */,
+				C26DEC102024932700A738CC /* AppController.h */,
+				C26DEC112024932700A738CC /* AppController.m */,
+				C26DEC132024933800A738CC /* Context.h */,
+				C26DEC142024933800A738CC /* Context.m */,
+			);
+			path = getMoneyShiftCFT;
+			sourceTree = "<group>";
+		};
+		C26DEC04202492F200A738CC /* getMoneyShiftCFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC05202492F200A738CC /* getMoneyShiftCFTTests.m */,
+				C26DEC07202492F200A738CC /* Info.plist */,
+			);
+			path = getMoneyShiftCFTTests;
+			sourceTree = "<group>";
+		};
+		C26DEC162024935B00A738CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC1A2024937400A738CC /* Contact.h */,
+				C26DEC1C2024937400A738CC /* Contact.m */,
+				C26DEC182024937400A738CC /* PaymentCard.h */,
+				C26DEC172024937400A738CC /* PaymentCard.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C26DEC23202493D200A738CC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC262024942700A738CC /* IMainScreenUI.h */,
+				C26DEC27202494B400A738CC /* MainScreenUI.h */,
+				C26DEC28202494B400A738CC /* MainScreenUI.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C26DEC24202493DD00A738CC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC2A2024983900A738CC /* MainPresenter.h */,
+				C26DEC2B2024983900A738CC /* MainPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C26DEC25202493E300A738CC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEBEC202492F200A738CC /* ViewController.h */,
+				C26DEBED202492F200A738CC /* ViewController.m */,
+				C26DEC462024F2BB00A738CC /* DetailViewController.h */,
+				C26DEC472024F2BB00A738CC /* DetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C26DEC2D2024AC7100A738CC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC452024DAE000A738CC /* Color */,
+				C26DEC3A2024AE9C00A738CC /* Manager */,
+				C26DEC392024AD0300A738CC /* Validator */,
+				C26DEC2E2024ACC900A738CC /* TextFieldFormatter */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C26DEC2E2024ACC900A738CC /* TextFieldFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC352024ACF700A738CC /* CHRTextFieldFormatter.h */,
+				C26DEC302024ACF700A738CC /* CHRTextFieldFormatter.m */,
+				C26DEC2F2024ACF700A738CC /* CHRTextMask.h */,
+				C26DEC322024ACF700A738CC /* CHRCardNumberMask.h */,
+				C26DEC342024ACF700A738CC /* CHRCardNumberMask.m */,
+			);
+			path = TextFieldFormatter;
+			sourceTree = "<group>";
+		};
+		C26DEC392024AD0300A738CC /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC332024ACF700A738CC /* CardValidator.h */,
+				C26DEC312024ACF700A738CC /* CardValidator.m */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		C26DEC3A2024AE9C00A738CC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC3C2024AEAC00A738CC /* CardManager.h */,
+				C26DEC3B2024AEAC00A738CC /* CardManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C26DEC452024DAE000A738CC /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C26DEC422024D79000A738CC /* UIColor+ColorHEX.h */,
+				C26DEC432024D79000A738CC /* UIColor+ColorHEX.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26DEBE5202492F200A738CC /* getMoneyShiftCFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26DEC0A202492F200A738CC /* Build configuration list for PBXNativeTarget "getMoneyShiftCFT" */;
+			buildPhases = (
+				C26DEBE2202492F200A738CC /* Sources */,
+				C26DEBE3202492F200A738CC /* Frameworks */,
+				C26DEBE4202492F200A738CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getMoneyShiftCFT;
+			productName = getMoneyShiftCFT;
+			productReference = C26DEBE6202492F200A738CC /* getMoneyShiftCFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26DEC00202492F200A738CC /* getMoneyShiftCFTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26DEC0D202492F200A738CC /* Build configuration list for PBXNativeTarget "getMoneyShiftCFTTests" */;
+			buildPhases = (
+				C26DEBFD202492F200A738CC /* Sources */,
+				C26DEBFE202492F200A738CC /* Frameworks */,
+				C26DEBFF202492F200A738CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26DEC03202492F200A738CC /* PBXTargetDependency */,
+			);
+			name = getMoneyShiftCFTTests;
+			productName = getMoneyShiftCFTTests;
+			productReference = C26DEC01202492F200A738CC /* getMoneyShiftCFTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26DEBDE202492F200A738CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Родион Баглай";
+				TargetAttributes = {
+					C26DEBE5202492F200A738CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C26DEC00202492F200A738CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C26DEBE5202492F200A738CC;
+					};
+				};
+			};
+			buildConfigurationList = C26DEBE1202492F200A738CC /* Build configuration list for PBXProject "getMoneyShiftCFT" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26DEBDD202492F200A738CC;
+			productRefGroup = C26DEBE7202492F200A738CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26DEBE5202492F200A738CC /* getMoneyShiftCFT */,
+				C26DEC00202492F200A738CC /* getMoneyShiftCFTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26DEBE4202492F200A738CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DEC22202493C700A738CC /* Main.storyboard in Resources */,
+				C26DEBF9202492F200A738CC /* LaunchScreen.storyboard in Resources */,
+				C26DEBF6202492F200A738CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DEBFF202492F200A738CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26DEBE2202492F200A738CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DEC382024ACF800A738CC /* CHRCardNumberMask.m in Sources */,
+				C26DEC29202494B400A738CC /* MainScreenUI.m in Sources */,
+				C26DEC1F2024937400A738CC /* Contact.m in Sources */,
+				C26DEC482024F2BB00A738CC /* DetailViewController.m in Sources */,
+				C26DEBF4202492F200A738CC /* getMoneyShiftCFT.xcdatamodeld in Sources */,
+				C26DEC152024933800A738CC /* Context.m in Sources */,
+				C26DEBEE202492F200A738CC /* ViewController.m in Sources */,
+				C26DEC1E2024937400A738CC /* PaymentCard.m in Sources */,
+				C26DEC3D2024AEAC00A738CC /* CardManager.m in Sources */,
+				C26DEC442024D79000A738CC /* UIColor+ColorHEX.m in Sources */,
+				C26DEC372024ACF800A738CC /* CardValidator.m in Sources */,
+				C26DEC362024ACF800A738CC /* CHRTextFieldFormatter.m in Sources */,
+				C26DEBFC202492F200A738CC /* main.m in Sources */,
+				C26DEC122024932700A738CC /* AppController.m in Sources */,
+				C26DEBEB202492F200A738CC /* AppDelegate.m in Sources */,
+				C26DEC2C2024983900A738CC /* MainPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DEBFD202492F200A738CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26DEC06202492F200A738CC /* getMoneyShiftCFTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26DEC03202492F200A738CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26DEBE5202492F200A738CC /* getMoneyShiftCFT */;
+			targetProxy = C26DEC02202492F200A738CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C26DEBF7202492F200A738CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26DEBF8202492F200A738CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26DEC08202492F200A738CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C26DEC09202492F200A738CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26DEC0B202492F200A738CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9LDU9CXLW;
+				INFOPLIST_FILE = getMoneyShiftCFT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baglay.getMoneyShiftCFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26DEC0C202492F200A738CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9LDU9CXLW;
+				INFOPLIST_FILE = getMoneyShiftCFT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baglay.getMoneyShiftCFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C26DEC0E202492F200A738CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9LDU9CXLW;
+				INFOPLIST_FILE = getMoneyShiftCFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baglay.getMoneyShiftCFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getMoneyShiftCFT.app/getMoneyShiftCFT";
+			};
+			name = Debug;
+		};
+		C26DEC0F202492F200A738CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9LDU9CXLW;
+				INFOPLIST_FILE = getMoneyShiftCFTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baglay.getMoneyShiftCFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/getMoneyShiftCFT.app/getMoneyShiftCFT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26DEBE1202492F200A738CC /* Build configuration list for PBXProject "getMoneyShiftCFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DEC08202492F200A738CC /* Debug */,
+				C26DEC09202492F200A738CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26DEC0A202492F200A738CC /* Build configuration list for PBXNativeTarget "getMoneyShiftCFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DEC0B202492F200A738CC /* Debug */,
+				C26DEC0C202492F200A738CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26DEC0D202492F200A738CC /* Build configuration list for PBXNativeTarget "getMoneyShiftCFTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26DEC0E202492F200A738CC /* Debug */,
+				C26DEC0F202492F200A738CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C26DEBF2202492F200A738CC /* getMoneyShiftCFT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C26DEBF3202492F200A738CC /* getMoneyShiftCFT.xcdatamodel */,
+			);
+			currentVersion = C26DEBF3202492F200A738CC /* getMoneyShiftCFT.xcdatamodel */;
+			path = getMoneyShiftCFT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C26DEBDE202492F200A738CC /* Project object */;
+}
